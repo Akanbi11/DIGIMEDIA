@@ -1,0 +1,49 @@
+
+.quote-page{
+    background-position: center;
+    background-image: url("/images/quote-bg-v3.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2rem;
+}
+.footer{
+    background-position: center;
+    background-image: url("/images/quote-bg-v3.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2rem;
+    
+}
+.text-height{
+    line-height: 30px;
+    
+}
+
+.roller{
+ height: 180px;
+ width: 180px;
+ border-radius: 50%;
+ border: 4px solid #0ba4e6;
+ border-top-color: transparent;
+}
+
+
+.roller2{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    border: 4px solid #a90ce2;
+    border-left-color: transparent;
+   }
+
+   
+.roller3{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    border: 4px solid #f26a0f;
+    border-right-color: transparent;
+   }
+   

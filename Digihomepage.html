@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html class="!scroll-smooth" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigiMedia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/src/output.css">
+    <link rel="stylesheet" href="Digi.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Pre Nav -->
+    <div class="w-[full]">
+        <nav class="hidden md:block bg-gray-100 md:h-[4rem]">
+            <div class="md:flex md:space-x-20 lg:space-x-[20rem] pt-4">
+                <div class="flex pl-[6rem] space-x-5">
+                    <div class="flex space-x-4">
+                        <img src="images/message-324 (1).png" alt="">
+                        <p class="text-gray-400">digimedia@company.com</p>
+                    </div>
+                    <div class="flex space-x-2">
+                        <img src="images/phone-504 (1).png" alt="">
+                        <p class="text-gray-400">010-020-0340</p>
+                    </div>
+                </div>
+                <div>
+                    <ul class="flex md:space-x-3 ">
+                        <li><img src="images/facebook-logo-108 (2).png" alt=""></li>
+                        <li><img src="images/behance-106.png" alt=""></li>
+                        <li><img src="images/twitter-117.png" alt=""></li>
+                        <li><img src="images/website-4945.png" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Pre Nav end -->
+    <!-- <div class="flex justify-between md:hidden">
+        <div> <img src="images/logo-v3.png" class="w-[10rem] pt-10" alt="">
+        </div>
+        <input type="checkbox" id="navbar-open">
+        <label class="text-xl" for="navbar-open"></label>
+        <div class="pt-7">
+            <button class="text-xl md:hidden"><img src="images/web-page-menu-button-blue-circle-20566.png"
+                    alt=""></button>
+        </div>
+    </div> --> <div class="md:hidden">
+        <header class="shadow mb-2 ">
+            <div class="relative flex max-w-screen-xl flex-col overflow-hidden px-4 py-4 md:mx-auto md:flex-row md:items-center">
+                <a href="#" class="flex items-center whitespace-nowrap text-2xl font-black">
+                    <img src="images/logo-v3.png" class="w-[10rem]" alt="">
+                </a>
+                <input type="checkbox" class="peer hidden" id="navbar-open" />
+                <label class="absolute top-5 right-7 cursor-pointer md:hidden" for="navbar-open">
+                  <span class="sr-only">Toggle Navigation</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                  </svg>
+                </label>
+                <nav aria-label="Header Navigation" class="peer-checked:mt-8 peer-checked:max-h-60 flex max-h-0 w-full flex-col items-center justify-between overflow-hidden transition-all md:ml-24 md:max-h-full md:flex-row md:items-start">
+                  <ul class="flex flex-col items-center space-y-2 md:ml-auto md:flex-row md:space-y-0">
+                    <li class="cursor-pointer hover:text-blue-600 font-semibold md:pt-10"><a href="#Home">Home</a>
+                    </li>
+                    <li class="cursor-pointer hover:text-blue-600 font-semibold md:pt-10"><a href="#About">About</a>
+                    </li>
+                    <li class="cursor-pointer hover:text-blue-600 font-semibold md:pt-10"><a
+                            href="#Services">Services</a>
+                    </li>
+                    <li class="cursor-pointer hover:text-blue-600 font-semibold md:pt-10"><a
+                            href="#Projects">Projects</a>
+                    </li>
+                    <li class="cursor-pointer hover:text-blue-600 font-semibold md:pt-10"><a href="#Blog">Blog</a>
+                    </li>
+                    <li class="cursor-pointer hover:text-blue-600 font-semibold md:pt-10"><a
+                            href="#Contact">Contact</a>
+                    </li>
+                    <li class="cursor-pointer font-semibold md:pt-8">
+                        <button
+                            class="py-2 px-6 text-blue-500 bg-white border-[1px] border-blue-400  w-15  font-semibold rounded-3xl">
+                            <a href="#">Free Quote</a>
+                        </button>
+                    </li>
+                  </ul>
+                </nav>
+    </div>
+        </header>
+</div>    
+
+        <!-- Navbar start -->
+        <ul class="flex md:space-x-8 pt-1 lg:space-x-12 text-black">
+            <div class="w-full">
+                <nav id="navbar"
+                    class="hidden md:block bg-white shadow-sm pb-20 md:h-[7rem] transition-all duration-300 ease-in-out">
+                    <div class="hidden md:flex md:space-x-10 lg:justify-around">
+                        <img src="images/logo-v3.png" class="w-[10rem] pt-10" alt="">
+                        <li class="cursor-pointer hover:text-blue-600 font-semibold md:pt-10"><a href="#Home">Home</a>
+                        </li>
+                        <li class="cursor-pointer hover:text-blue-600 font-semibold md:pt-10"><a href="#About">About</a>
+                        </li>
+                        <li class="cursor-pointer hover:text-blue-600 font-semibold md:pt-10"><a
+                                href="#Services">Services</a>
+                        </li>
+                        <li class="cursor-pointer hover:text-blue-600 font-semibold md:pt-10"><a
+                                href="#Projects">Projects</a>
+                        </li>
+                        <li class="cursor-pointer hover:text-blue-600 font-semibold md:pt-10"><a href="#Blog">Blog</a>
+                        </li>
+                        <li class="cursor-pointer hover:text-blue-600 font-semibold md:pt-10"><a
+                                href="#Contact">Contact</a>
+                        </li>
+                        <li class="cursor-pointer font-semibold md:pt-8">
+                            <button
+                                class="py-2 px-6 md:hidden lg:block text-blue-500 bg-white border-[1px] border-blue-400  w-15  font-semibold rounded-3xl">
+                                <a href="#">Free Quote</a>
+                            </button>
+                        </li>
+        </ul>
+    </div>
+    </div>
+    </nav>
+    </div>
+    <!-- Navbar end -->
+
+    <!-- Landing Page starts -->
+    <div id="Home">
+        <div class="hero-page h-[40rem] xl:w-[full] lg:w-[full] md:w-[full] mb-[40rem] md:mb-[50rem] lg:mb-[15rem]">
+            <div class="lg:flex lg:space-x-9">
+                <div  data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+                class="pl-[5rem] mx-2 md:mx-0 md:text-center">
+                    <h1 class="text-xl text-blue-400 font-bold pt-[8rem] pb-3">DIGITAL MEDIA AGENCY</h1>
+                    <h2 class="text-2xl md:text-6xl font-bold">We Boost Your <br> Website Traffic</h2> <br>
+                    <p class="text-gray-400 flex-wrap lg:text-left text-height">
+                        At Digimedia, we are passionate about the digital world and its <br> endless possibilities. As a
+                        premier digital media agency, we <br> specialize in transforming brands through innovative
+                        digital <br> solutions. Our team of experts is dedicated to creating engaging content,
+                        cutting-edge websites, and powerful marketing strategies that drive results.
+                    </p> <br>
+                    <button
+                        class="py-2 px-6 text-blue-500 bg-white border-[1px] border-blue-400 w-15 font-semibold rounded-3xl">
+                        <a href="#">Free Quote</a>
+                    </button>
+                </div>
+                <div  data-aos="fade-left"
+                data-aos-anchor="#example-anchor"
+                data-aos-offset="500"
+                data-aos-duration="500" class="md:pt-[7rem] pt-[3rem] pl-7 md:pl-0">
+                    <img src="images/slider-dec-v3.png" class="lg:h-[30rem] lg:w-[70rem]" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Landing page ends -->
+
+    <!-- About Section Starts -->
+    <div id="About">
+        <div class="lg:flex lg:justify-center lg:space-x-7 lg:mb-[10rem]">
+            <div data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine" class="md:mb-10 pl-7 md:flex md:justify-center lg:block">
+                <img src="images/about-dec-v3.png" alt="">
+            </div>
+            <div  data-aos="fade-left"
+            class="text-center mx-2 lg:mx-0 lg:text-start">
+                <h3 class="text-blue-400 font-bold text-lg">ABOUT US</h3>
+                <h4 class="text-2xl md:text-4xl font-bold">Who Is DigiMedia <span class="text-blue-400"> Agency</span>
+                </h4> <br>
+                <hr class="bg-blue-400 h-[3px] w-[4rem] md:hidden"> <br>
+                <p class="text-gray-400 flex-wrap text-height">Digimedia is a collective of creative minds, tech
+                    enthusiasts, and marketing gurus. <br>
+                    We bring together a diverse set of skills to offer <span class="text-blue-400">comprehensive digital
+                        media <br>
+                    </span> services that cater to the unique needs of our clients. Whether you're <br>
+                    a startup looking to make your mark or an <span class="text-blue-400">established brand seeking
+                        a</span>, <br> fresh perspective
+                    we have the expertise to help you achieve your goals.</p> <br>
+                <div class="flex flex-wrap space-x-3 md:justify-center lg:justify-normal">
+                    <div class="roller font-bold text-center pt-[4rem]">
+                        <h1 class="font-bold text-4xl">65%</h1>
+                        <p class="text-gray-400">Animation</p>
+                    </div>
+                    <div class="roller2 font-bold text-center pt-[4rem]">
+                        <h1 class="font-bold text-4xl">65%</h1>
+                        <p class="text-gray-400">Coding</p>
+                    </div>
+                    <div class="roller3 font-bold text-center pt-[4rem]">
+                        <h1 class="font-bold text-4xl">65%</h1>
+                        <p class="text-gray-400">Photoshop</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Section Ends -->
+
+    <!-- OUR SERVICES -->
+    <div id="Services">
+        <div class="services-page  lg:mb-[13rem]  ">
+            <div>
+                <div data-aos="fade-down" class="text-center pb-32">
+                    <h3 class="text-blue-400 text-xl font-bold ">Our Services</h3> <br>
+                    <h4 class="text-2xl md:text-4xl font-bold pb-4">What Our Agency <span
+                            class="text-blue-400">Provides</span>
+                    </h4>
+                    <hr class="bg-blue-400 h-[3px] w-[4rem] mx-auto">
+                </div>
+                <div class="flex flex-wrap justify-center  space-x-5 space-y-6 lg:space-y-0 pb-10">
+                    <div class="bg-white pt-5 mt-5 lg:mt-0 shadow-lg rounded-xl h-[11rem] w-[12rem]">
+                        <div class="pl-[4rem] pb-2">
+                            <img src="images/service-icon-01.png" alt="">
+                        </div>
+                        <h2 class="font-bold text-center text-2xl ">Apartments</h2>
+                    </div>
+                    <div class="bg-white pt-5 shadow-lg rounded-xl h-[11rem] w-[12rem]">
+                        <div class="pl-[4rem] pb-2">
+                            <img src="images/service-icon-02.png" alt="">
+                        </div>
+                        <h2 class="font-bold text-center text-2xl ">Food And Life</h2>
+                    </div>
+                    <div class="bg-white pt-5 shadow-lg rounded-xl h-[11rem] w-[12rem]">
+                        <div class="pl-[4rem] pb-2">
+                            <img src="images/service-icon-03.png" alt="">
+                        </div>
+                        <h2 class="font-bold text-center text-2xl">Cars</h2>
+                    </div>
+                    <div class="bg-white pt-5 shadow-lg rounded-xl h-[11rem] w-[12rem]">
+                        <div class="pl-[4rem] pb-2">
+                            <img src="images/service-icon-04.png" alt="">
+                        </div>
+                        <h2 class="font-bold text-center text-2xl">Shopping</h2>
+                    </div>
+                    <div class="bg-white pt-5 shadow-lg rounded-xl h-[11rem] w-[12rem]">
+                        <div class="pl-[4rem] pb-2">
+                            <img src="images/service-icon-01.png" alt="">
+                        </div>
+                        <h2 class="font-bold text-center text-2xl">Travelling</h2>
+                    </div>
+                </div>
+                <div
+                    class="bg-white shadow-lg md:mx-auto lg:h-[34rem] lg:w-fit lg:p-6 md:h-[54rem] md:w-[40rem] h-[62rem] w-[21rem] mx-auto ">
+                    <div class="flex flex-wrap justify-center md:space-x-10">
+                        <div class="mx-3 md:mx-0">
+                            <h3 class="text-blue-400 text-xl font-bold ">SEO Analysis & Daily Reports</h3> <br>
+                            <p class="text-gray-400 text-wrap pb-10 text-height">Our organic traffic has increased by 8%
+                                compared to weeks ago. <br>
+                                The majority of the traffic is coming from search engines, Google <br> being the top
+                                source.
+                                We are on a positive trajectory with our SEO <br> efforts, but continuous optimization
+                                is crucial. By focusing on new <br> opportunities.
+                            </p>
+                            <div class="flex space-x-3">
+                                <div class="space-y-7 font-bold">
+                                    <P> ✔️ Site Speed </P>
+                                    <p>✔️ Crawl Errors</p>
+                                    <p>✔️ Mobile Usability</p>
+                                </div>
+                                <div class="space-y-7 font-bold">
+                                    <p>✔️ Secure HTTPS</p>
+                                    <p>✔️ Structured Data</p>
+                                    <p>✔️ Image Optimization</p>
+                                </div>
+                            </div> <br>
+                            <p class="text-gray-400">We are on a positive trajectory with our SEO efforts, but <br>
+                                continuous optimization is crucial.</p>
+                        </div> <br> <br>
+                        <div class="md:pt-[5rem] ">
+                            <img src="images/services-image.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our Services end -->
+
+    <!-- Quote starts -->
+    <div>
+        <div class="quote-page lg:h-[31rem] lg:w-full md:h-[28rem] md:w-[48rem] h-[28rem]  mb-[10rem] ">
+            <div data-aos="zoom-in" class="text-center pt-[7rem] pb-[5rem]">
+                <h3 class="text-white text-xl font-bold pb-4">GET YOUR FREE QUOTE</h3>
+                <h4 class="text-white text-4xl md:text-4xl font-bold pb-7">Grow With Us Now</h4>
+                <hr class="bg-white h-[3px] w-[4rem] mx-auto">
+            </div>
+            <div class="flex justify-center md:hidden">
+                <input type="text"
+                    class="py-2 px-4 hover:outline-white shadow-sm outline-none hover:transition-none rounded-l-full"
+                    placeholder="Email Address...">
+                <button class="rounded-r-full text-white px-4 py-2  bg-sky-400">Get Quote Now</button>
+            </div>
+            <div class="flex justify-center">
+                <div class="py-6 px-4 bg-white w-[30rem] rounded-l-full hidden md:block ">
+                    <div class="flex space-x-2">
+                        <input type="text"
+                            class="py-2 px-4 hover:outline-white shadow-sm outline-none hover:transition-none "
+                            placeholder="Your website URL...">
+                        <input type="text"
+                            class="py-2 px-4 hover:outline-white shadow-sm outline-none hover:transition-none "
+                            placeholder="Email Address...">
+                    </div>
+                </div>
+                <button class="py-8 px-4 rounded-r-full text-white w-[15rem] hidden md:block   bg-sky-400">Get Quote
+                    Now</button>
+            </div>
+        </div>
+    </div>
+    <!-- Quote ends -->
+
+    <!-- Projects start -->
+    <div id="Projects">
+        <div  data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine" class="project-page mb-[15rem]">
+            <div class="mb-[5rem] ml-[5rem]">
+                <h3 class="text-blue-400 text-xl font-bold pb-3">OUR PORTFOLIO</h3>
+                <h4 class="text-2xl md:text-4xl font-bold pb-6">See Our Recent <span
+                        class="text-blue-400">Projects</span>
+                </h4>
+                <hr class="bg-blue-400 h-[3px] w-[3rem]">
+            </div>
+            <div
+                class="flex flex-wrap lg:flex-nowrap space-y-7 md:space-y-5 justify-center md:space-x-5 mx-auto md:mx-0">
+                <div class="max-w-sm overflow-hidden shadow-lg bg-white rounded-2xl">
+                    <img src="images/portfolio-01.jpg" class="w-full" alt="">
+                    <div class="py-10 px-6 text-center">
+                        <p class="font-bold text-xl pb-2">Weather App</p>
+                        <p class="text-gray-400">Real-time weather updates.</p>
+                    </div>
+                </div>
+                <div class="max-w-sm overflow-hidden shadow-lg bg-white rounded-2xl">
+                    <img src="images/portfolio-02.jpg" class="w-full" alt="">
+                    <div class="py-10 px-6 text-center">
+                        <p class="font-bold text-xl pb-2">E-commerce Site</p>
+                        <p class="text-gray-400">Shop online securely.</p>
+                    </div>
+                </div>
+                <div class="max-w-sm overflow-hidden shadow-lg bg-white rounded-2xl">
+                    <img src="images/portfolio-03.jpg" class="w-full" alt="">
+                    <div class="py-10 px-6 text-center">
+                        <p class="font-bold text-xl pb-2">Task Manager</p>
+                        <p class="text-gray-400">Organize daily tasks.</p>
+                    </div>
+                </div>
+                <div class="max-w-sm overflow-hidden shadow-lg bg-white rounded-2xl">
+                    <img src="images/portfolio-04.jpg" class="w-full" alt="">
+                    <div class="py-10 px-6 text-center">
+                        <p class="font-bold text-xl pb-2">Portfolio Website</p>
+                        <p class="text-gray-400">Showcase your work.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects end -->
+
+    <!-- Blog starts -->
+    <div id="Blog">
+        <div class="mb-[12rem]">
+            <div  data-aos="fade-down"  class="text-center mb-[5rem]">
+                <h3 class="text-blue-400 text-xl font-bold pb-3 mb-[4rem]">RECENT NEWS</h3>
+                <h4 class="text-2xl md:text-4xl font-bold pb-5">Check Our Blog <br><span
+                        class="text-blue-400">POSTS</span>
+                </h4>
+                <hr class="bg-blue-400 h-[3px] w-[4rem] mx-auto">
+            </div>
+            <div data-aos="fade-up" class="flex flex-wrap ml-[3rem] space-x-10 ">
+                <div>
+                    <div
+                        class="bg-white overflow-hidden max-w-lg shadow-lg md:ml-[8rem] lg:ml-0 md:h-[45rem] md:w-[30rem] h-[40rem] w-[20rem] rounded-2xl mb-[5rem] lg:mb-[15rem]">
+                        <img src="images/blog-post-01.jpg" class="w-full" alt="">
+                        <div class="flex pt-8 justify-between">
+                            <div class="pl-[2rem] ">
+                                <button
+                                    class="py-2 px-4 text-white bg-blue-400 border-blue-400  w-15 font-semibold rounded-2xl">SEO
+                                    Analysis</button>
+                            </div>
+                            <p class="text-gray-400 pr-[2rem] ">06 August 2022</p>
+                        </div>
+                        <div class="py-10 px-6 text-center">
+                            <p class="font-bold text-xl pb-2 text-left">Top 10 Effective Strategies for, Improving Your
+                                Website's SEO Ranking</p>
+                            <p class="text-gray-400 text-left">Conducting a comprehensive SEO analysis is essential for
+                                optimizing your website's visibility and performance on search engines. </p>
+                        </div>
+                        <div class="flex space-x-[5rem]">
+                            <div class="flex pl-5 pt-5 space-x-2">
+                                <img src="images/author-post.jpg" class="rounded-full h-[3rem] w-[3rem]" alt="">
+                                <p class="pt-2">By: Andrea Mentuzi</p>
+                            </div>
+                            <button
+                                class="py-2 px-4 text-blue-500 bg-white border-[1px] border-blue-400  w-15 font-semibold rounded-3xl">Discover
+                                More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-y-[3rem] md:justify-center lg:justify-normal">
+                    <div class="flex flex-wrap space-x-[1rem]">
+                        <div>
+                            <img src="images/blog-post-02.jpg"
+                                class="overflow-hidden max-w-sm h-[15rem] w-[15rem] rounded-2xl" alt="">
+                        </div> <br>
+                        <div>
+                            <div class="pl-[2rem] ">
+                                <button
+                                    class="py-2 px-4 text-white bg-blue-400 border-blue-400  w-15 font-semibold rounded-2xl">SEO
+                                    Analysis</button>
+                            </div>
+                            <p class="text-gray-400 pt-3 pl-[10rem] ">06 August 2022</p>
+                            <p class="font-bold text-xl pb-2 text-left text-wrap">SEO <br> is paramount for enhancing
+                                your <br> website's visibility <br> and driving organic traffic.</p>
+                            <p class="text-gray-400 text-left">Our comprehensive SEO analysis <br> dives deep into
+                                various aspects of your site</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap space-x-[1rem]">
+                        <div>
+                            <img src="images/blog-post-03.jpg"
+                                class="overflow-hidden max-w-sm h-[15rem] w-[15rem] rounded-2xl" alt="">
+                        </div> <br>
+                        <div>
+                            <div class="pl-[2rem] ">
+                                <button
+                                    class="py-2 px-4 text-white bg-blue-400 border-blue-400  w-15 font-semibold rounded-2xl">SEO
+                                    Analysis</button>
+                            </div>
+                            <p class="text-gray-400 pt-3 pl-[10rem] ">06 August 2022</p>
+                            <p class="font-bold text-xl pb-2 text-left text-wrap">SEO <br> is paramount for enhancing
+                                your <br> website's visibility <br> and driving organic traffic.</p>
+                            <p class="text-gray-400 text-left">Our comprehensive SEO analysis <br> dives deep into
+                                various aspects of your site</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap space-x-[1rem]">
+                        <div>
+                            <img src="images/blog-post-04.jpg"
+                                class="overflow-hidden max-w-sm h-[15rem] w-[15rem] rounded-2xl" alt="">
+                        </div> <br>
+                        <div>
+                            <div class="pl-[2rem] ">
+                                <button
+                                    class="py-2 px-4 text-white bg-blue-400 border-blue-400  w-15 font-semibold rounded-2xl">SEO
+                                    Analysis</button>
+                            </div>
+                            <p class="text-gray-400 pt-3 pl-[10rem] ">06 August 2022</p>
+                            <p class="font-bold text-xl pb-2 text-left text-wrap">SEO <br> is paramount for enhancing
+                                your <br> website's visibility <br> and driving organic traffic.</p>
+                            <p class="text-gray-400 text-left">Our comprehensive SEO analysis <br> dives deep into
+                                various aspects of your site</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog ends -->
+
+
+    <!--Contact Page  -->
+    <div id="Contact">
+        <div data-aos="fade-up"
+        data-aos-duration="500" class="mb-[10rem]">
+            <div class="flex  justify-center space-x-16">
+                <div class="text-center pt-12  mb-[5rem]">
+                    <h3 class="text-blue-400 text-xl font-bold  pb-[1rem]">CONTACT US</h3>
+                    <h4 class="text-2xl md:text-4xl font-bold pb-5">Get In Touch With Us <span
+                            class="text-blue-400">Now</span>
+                    </h4>
+                    <hr class="bg-blue-400 h-[3px] w-[4rem] mx-auto">
+                </div>
+                <div>
+                    <img src="images/contact-dec-v3.png" alt="">
+                </div>
+            </div>
+            <div>
+                <div class="lg:flex lg:justify-center  lg:space-y-0">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.3118305047856!2d-43.38787122594597!3d-23.012320041648774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bdb695cd967b7%3A0x171cdd035a6a9d84!2sAv.%20L%C3%BAcio%20Costa%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%20Brazil!5e0!3m2!1sen!2sus!4v1720896222027!5m2!1sen!2sus"
+                        class="lg:rounded-l-3xl md:hidden lg:block lg:h-[692px] lg:w-[500px] rounded:2xl h-[20rem] w-[25rem] mx-auto lg:mx-0 "
+                        frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div
+                        class="bg-white shadow-lg lg:h-[692px] lg:w-[40rem] w-[25rem] md:w-[40rem] mx-auto md:mx-0  lg:rounded-none lg:ml-0 md:ml-[4rem] ">
+                        <img src="images/contact-top-right-v3.png" alt="">
+                        <div class="md:flex justify-center space-x-5 mb-[4rem]">
+                            <div class="bg-white h-[10rem] w-[10rem] hidden md:block rounded-3xl  shadow-lg">
+                                <div class="pt-[2rem] pb-[1rem] flex justify-center">
+                                    <img src="images/phone-icon.png" alt="">
+                                </div>
+                                <p class=" font-semibold text-center  hover:text-blue-400">010-020-0340</p>
+                            </div>
+                            <div class="bg-white h-[10rem] w-[10rem]  hidden md:block rounded-3xl  shadow-lg">
+                                <div class="pt-[2rem] pb-[1rem] flex justify-center">
+                                    <img src="images/email-icon.png" alt="">
+                                </div>
+                                <p class=" font-semibold text-center hover:text-blue-400">digimedia@gmail</p>
+                            </div>
+                            <div class="bg-white h-[10rem] w-[10rem]  hidden md:block rounded-3xl  shadow-lg">
+                                <div class="pt-[2rem] pb-[1rem] flex justify-center">
+                                    <img src="images/location-icon.png" alt="">
+                                </div>
+                                <p class=" font-semibold text-center  hover:text-blue-400">123 Rio de janiero</p>
+                            </div>
+                        </div>
+                        <div class="md:flex mx-10 justify-center md:space-x-5 lg:space-x-8">
+                            <div class="space-y-8">
+                                <div><input type="text" placeholder="name"
+                                        class="w-[17rem] py-3 px-4 rounded-3xl hover:outline-none hover:border-[3px] hover:border-blue-300  border-[1px] outline-none hover:transition-none  ">
+                                </div>
+                                <div> <input type="text" placeholder="Your Email"
+                                        class="w-[17rem]  py-3 px-4 rounded-3xl hover:outline-none hover:border-[3px] hover:border-blue-300  border-[1px] outline-none hover:transition-none  ">
+                                </div>
+                                <div> <input type="text" placeholder="Subject"
+                                        class="w-[17rem]  py-3 px-4 rounded-3xl hover:outline-none hover:border-[3px] hover:border-blue-300  border-[1px] outline-none hover:transition-none  ">
+                                </div>
+                            </div>
+                            <div>
+                                <textarea name="Message"
+                                    class="h-[13rem] w-[16rem] rounded-3xl hover:outline-none hover:border-[3px] hover:border-blue-300 p-2  border-[2px] outline-none hover:transition-none"
+                                    id=""></textarea>
+                            </div>
+                        </div>
+                        <div class="flex justify-center pt-[2rem]">
+                            <button
+                                class="py-3 px-4 text-blue-400 hover:bg-blue-400 hover:text-white  bg-white border-[1px] border-blue-400 w-[35rem] font-semibold rounded-full">Send
+                                Now
+                            </button>
+                        </div>
+                        <div class="flex justify-end">
+                            <img src="images/contact-bottom-right-v3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="flex justify-center">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.3118305047856!2d-43.38787122594597!3d-23.012320041648774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bdb695cd967b7%3A0x171cdd035a6a9d84!2sAv.%20L%C3%BAcio%20Costa%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%20Brazil!5e0!3m2!1sen!2sus!4v1720896222027!5m2!1sen!2sus"
+                            class="rounded-3xl hidden md:block lg:hidden md:w-[40rem]" height="692px" frameborder="0"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact ends -->
+
+    <!-- Footer Starts -->
+     <div class="footer bg-blue-500 xl:w-[full] lg:w-[full]">
+        <footer>
+            <div class="space-y-4 pt-4">
+                <p class="text-white text-center">Copyright © 2022 DigiMedia Co., Ltd. All Rights Reserved.</p>
+                <p class="text-center text-white">ELEVEN STUDIOS</p>
+            </div>
+        </footer>
+     </div>
+ <!-- Footer ends -->
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        window.addEventListener('scroll', function () {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 0) {
+                navbar.classList.add('fixed', 'top-0', 'w-full');
+            } else {
+                navbar.classList.remove('fixed', 'top-0', 'w-full');
+            }
+        });
+        
+  AOS.init();
+
+    </script>
+
+</body>
+
+</html>
